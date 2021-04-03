@@ -6,10 +6,9 @@
 body {
 
     font-family: 'Open Sans', Helvetica, sans-serif;
+    background: #17191C;
     
 }
-
-
 
 .container {
 
@@ -17,92 +16,119 @@ body {
     margin: 0 auto;
 }
 
-.header {
+.wrapper  {
     
-    position: relative;
-    background-image: url(../img/hero.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 1059px;
-    
+    background: url("../img/hero.png") center top no-repeat;
     
 }
-.wrapper {
 
+
+
+.header__wrapper {
+
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    vertical-align: top;
-    padding-top: 26px;
-    padding-bottom: 162px;
-}
+    margin-top: 26px;
+} 
 
-.header__logo {
+.logo {
 
-    display: block;
+    display: inline-block;
     width: 198px;
     height: 46px;
+   
 
 }
 
-.menu {
+.menu__list {
 
-    display: flex;
+    display: inline-block;
     list-style-type: none;
-    
+    margin: 0;
+    padding: 0;
 }
 
 .menu__item {
 
-    padding-right: 54px;
+    display: inline-block;
+    margin-right: 54px;
+    
+
+}
+
+.menu__item:last-child {
+
+    margin-right: 0px;
+    
 }
 
 .menu__link {
 
+    font-style: normal;
+    font-weight: normal;
     font-size: 14px;
     color: #fff;
+    text-decoration: none;
+
+}
+
+
+.contacts {
+
+    display: inline-block;
 
 }
 
 .contacts__phone {
 
+    font-style: normal;
+    font-weight: normal;
     font-size: 26px;
     color: #fff;
-    font-style: normal;
     text-decoration: none;
 }
 
 .contacts__info {
 
-    text-decoration-line: underline;
+    font-style: normal;
+    font-weight: normal;
     font-size: 13px;
+    text-decoration-line: underline;
     color: #FF3D00;
+
 }
 
 
+.promo {
+
+    margin-top: 162px;
+    text-align: center;
+    margin-bottom: 233px;
+
+}
+
 .promo__title {
 
-    display: block;
     margin: 0 auto;
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
-    color: #fff;
     text-transform: uppercase;
-    text-align: center;
-    padding-bottom: 17px;
+    color: #FFFFFF;
+
 }
 
 .promo__subtitle {
 
+    display: block;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    color: #fff;
+    color: #FFFFFF;
     margin: 0 auto;
-    text-align: center;
-    padding-bottom: 43px;
+    padding-top: 17px;
 
 }
 
@@ -110,41 +136,49 @@ body {
 
     display: block;
     width: 195px;
-    height: 55px;   
+    height: 55px;
     background: #FF3D00;
     border-radius: 35px;
+    line-height: 55px;
+    margin: 0 auto;
+    margin-top: 43px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
-    text-decoration: none;
-    color: #fff;
+    color: #FFFFFF;
     text-align: center;
-    margin: 0 auto;
-    line-height: 55px;
+
 }
 
+.offers {
 
-/* Начало секции "Услуги" */
+    position: relative;
+    min-height: 900px;
+}
 
 .offers__list {
 
-    display: flex;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
     list-style-type: none;
+
 }
 
-.offers__item {
+.offer-card {
 
-    margin-right: 26px;
     width: 362px;
-    min-height: 476px;
+    height: 476px;
     background: #FFFFFF;
     border-radius: 5px;
-    border: 2px solid;
-    border-color:#FF3D00;
-}
+    margin-right: 27px;
 
-.offers__item_active {
+} 
+
+.offer-card:hover {
 
     background: #FFFFFF;
     border: 5px solid #CCCCCC;
@@ -153,229 +187,250 @@ body {
 
 }
 
-.offers__img {
+.offer-card:last-child {
 
-    padding: 36px 0px 30px 29px;
+    margin-right: 0px;
 
 }
 
-.offers__subtitle {
+.offer-card__wrapper {
 
+    padding: 36px 34px 53px 22px;
+    
+
+}
+
+.offer-card__title {
+
+    margin: 0;
+    padding-top: 30px;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
-    margin: 0 auto;
-    padding: 0px 0px 17px 22px;
-}
-
-.offers__content {
-
-    display: flex;
-    padding: 0px 34px 25px 22px;
-}
-
-.offers__feature-text {
-
-    width: 102px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    margin-right: 81px;
-    
-}
-
-.offers__feature-text:last-child {
-
-    margin-right: 0px;
-}
-
-.offers__descr {
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    padding: 0px 34px 29px 22px;
-    margin: 0 auto;
-}
-
-.button__offers {
-
-    margin-left: 24px;
-    border: 2px solid #FF3D00;
-    background: #fff;
-    color: #FF3D00;
-}
-
-/* секция "Новости и акции */
-
-.news {
-
-    top: 122px;
-    background-image:url(../img/bottom-pic.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 926px;
+    color: #000000;
 
 }
 
-
-.news__inner {
+.offer-card__amenities {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0px;
-    
+
 }
-.news__title {
+
+.offer-card__feature-text {
 
     
     font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    text-transform: uppercase;
-    color: #fff;
-
-}
-
+    font-weight: normal;
+    font-size: 13px;
+    color: #666666;
+    padding: 17px 81px 0px 0px
     
-.news__item {
-
-    position: relative;
-    margin-right: 26px;
 }
 
-.news__item:last-child {
+.offer-card__feature-text:last-child {
 
-    margin-right: 0px;
+    padding-right: 0px;
 }
 
-.news__text-content {
-
-    position: absolute;
-    top: 252px;
-    left: 30px;
-    bottom: 0px;
-}
-
-.news__date {
+.offer-card__descr {
 
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    color: #fff;
-    padding-bottom: 12px;
+    color: #666666;
+    padding-top: 25px;
+}
+
+.button__offer {
+
+    
+    margin-left: 0px;
+    color: #FF3D00;
+    background: #FFFFFF;
+    border: 2px solid #FF3D00 ;
+}
+
+.button__offer:hover {
+
+    background:#FF3D00;
+    color: #FFFFFF;
+
+}
+
+.news {
+
+    background: url("../img/bottom-pic.png") center center no-repeat;
+    min-height: 926px;
+    
+}
+
+.news__list {
+
+    position: relative;
+    top: -220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.news__title {
+    
+    position: relative;
+    top: -240px;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px 0px 20px 0px;
+}
+
+
+.news__cover {
+
+    position: relative;
+    display: block;
+    width: 557px;
+    height: 394px;
+    margin: 0;
+
+}
+
+.news__text-content {
+
+    position: relative;
+    color: #FFFFFF;
+    top: -130px;
+    left: 30px;
+    
+}
+
+.news__date {
+
+    font-weight: normal;
+    font-size: 14px;
+
 }
 
 .news__subheader {
 
-    font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    color: #fff;
+    padding-top: 12px;
 }
 
 .news__descr {
 
-    font-style: normal;
+    padding-top: 4px;
     font-weight: normal;
     font-size: 16px;
-    color:#fff;
+    line-height: 21px;
+    margin: 0;
 }
-
-/* стили для навигации по слайдам */
 
 .pagination {
 
-    
+    position: relative;
+    top: -310px;
+    left: 0;
+    right: 0px;
     text-align: center;
-}
-
-.pagination__list, .pagination__info {
-
-    display: inline-block;
-    vertical-align: middle;
-
-}
-
-.pagination__list {
-
-    margin-right: 26px;
-}
-
-.pagination__item {
-
-    display: inline-block;
-    margin-right: 24px;
-    
-}
-
-.pagination__item:last-child {
-
-    margin-right: 0px;
+    padding-top: 30px;
+   
 }
 
 .pagination__info {
 
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 26px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    color: #fff;
+    color: #FFFFFF;
 
 }
 
-.pagination__item_active {
 
-    line-height: 32px;
-    width: 32px;
-    height: 32px;
-    border-radius: 100%;
-    background: #FF5500
+.pagination__list {
+
+    display: inline-block;
+    vertical-align: middle;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
 }
+
+
+
+.pagination__item {
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .pagination__link {
 
-    font-style: normal;
+    display: block;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
     font-weight: bold;
     font-size: 16px;
-    color: #fff;
-    text-decoration: none;
-    
+    color: #FFFFFF;
+    line-height: 32px;
+
 }
 
-/* стили для секции "О нас" */
+.pagination__item:hover {
+
+    background:#FF5500;
+    border-radius: 50%;
+    line-height: 32px;
+}
 
 .about {
 
-    background: #17191C;
+    position: relative;
+    top: -445px;
+
 }
 
 .about__wrapper {
 
     position: relative;
     display: flex;
+    margin: 0;
+    
 }
 
 .about__img {
 
     width: 490px;
-    height: 505px
+    height: 505px;
 
 }
+
 .about__info {
 
     position: absolute;
-    top: 97px;
-    left: 354px;
-    bottom: 0;
+    left: 355px;
+    bottom: -50px;
+    display: block;
     width: 785px;
     height: 455px;
     background: #FFFFFF;
-    border-radius: 5px; 
-    margin: 0 auto;
-    
+    border-radius: 5px;
+    padding-left: 81px;
+
+
 }
 
 .about__title {
@@ -384,8 +439,10 @@ body {
     font-weight: 700;
     font-size: 36px;
     text-transform: uppercase;
-    padding: 70px 0px 37px 81px;
-    margin: 0 auto;
+    color: #000000;
+    padding-top: 70px;
+    margin: 0;
+
 }
 
 .about__descr {
@@ -394,36 +451,48 @@ body {
     font-weight: normal;
     font-size: 16px;
     color: #060606;
-    padding: 37px 202px 43px 81px ;
-    margin: 0 auto;
+    padding-top: 37px;
+    padding-right: 202px;
+    margin: 0;
+
 }
 
 .button__about {
 
-    margin-left: 81px;
+  margin: 43px 81px 0px 0px;
 }
+
 
 .footer {
 
-    position: relative;
-    top: 0px;
-    background: #17191C;
-    
+
+    position: relative; 
+    top: -250px;
+
+
+}
+.footer__line {
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    margin: 0;
+
 }
 .footer__wrapper {
+
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 306px;
+    padding-top: 40px;
 }
 
-.footer__social-item {
 
-    padding-right: 10px;
-}
+.contacts__info_footer {
 
-.footer__social-item:last-child {
-
-    padding-right: 0px;
+    color: #9A9A9A;
+    font-style: normal;
+    font-size: 11px;
+    text-align: right;
 }
