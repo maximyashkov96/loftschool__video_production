@@ -353,10 +353,13 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
+    line-height: 1.42;
     color: #060606;
+    margin: 0;
 }
 .button__about {
     margin-left: 0;
+    text-decoration: none;
 }
 
 .footer__line {
