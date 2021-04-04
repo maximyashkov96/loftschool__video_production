@@ -10,84 +10,56 @@ body {
     
 }
 
-main {
-
-    height: 2135px;
+.wrapper  {
+    padding: 26px 0px 57px 0px;
+    background: url("../img/hero.png") center top no-repeat, url("../img/bottom-pic.png") bottom 306px center no-repeat;
 }
 
 .container {
-
     max-width: 1142px;
     margin: 0 auto;
 }
 
-.wrapper  {
-    
-    background: url("../img/hero.png") center top no-repeat;
-    
-}
-
-
-
 .header__wrapper {
-
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 26px;
 } 
 
 .logo {
-
     display: inline-block;
     width: 198px;
     height: 46px;
-   
-
 }
 
 .menu__list {
-
     display: inline-block;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 .menu__item {
-
     display: inline-block;
     margin-right: 54px;
-    
-
 }
 
 .menu__item:last-child {
-
     margin-right: 0px;
-    
 }
 
 .menu__link {
-
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     color: #fff;
     text-decoration: none;
-
 }
 
 
 .contacts {
-
     display: inline-block;
-
 }
 
 .contacts__phone {
-
     font-style: normal;
     font-weight: normal;
     font-size: 26px;
@@ -96,49 +68,40 @@ main {
 }
 
 .contacts__info {
-
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     text-decoration-line: underline;
     color: #FF3D00;
-
 }
 
 
 .promo {
-
-    margin-top: 162px;
+    padding: 162px 0px 233px 0px;
     text-align: center;
-    margin-bottom: 233px;
-
 }
 
 .promo__title {
-
-    margin: 0 auto;
     font-style: normal;
     font-weight: 700;
     font-size: 72px;
     text-transform: uppercase;
     color: #FFFFFF;
-
+    text-align: center;
+    margin: 0;
 }
 
 .promo__subtitle {
-
     display: block;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     color: #FFFFFF;
-    margin: 0 auto;
+    text-align: center;
     padding-top: 17px;
-
 }
 
 .button {
-
     display: block;
     width: 195px;
     height: 55px;
@@ -153,186 +116,150 @@ main {
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: center;
-
 }
 
 .offers {
-
-    position: relative;
-    min-height: 903px;
+    padding: 0px 0px 180px;
 }
 
 .offers__list {
-
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    margin: 0;
-    padding: 0;
     list-style-type: none;
-
+    padding: 0;
+    margin: 0;
 }
 
 .offer-card {
-
     width: 362px;
     height: 476px;
     background: #FFFFFF;
     border-radius: 5px;
     margin-right: 27px;
-
+    border: 5px solid transparent;
 } 
 
 .offer-card:hover {
-
     background: #FFFFFF;
-    border: 5px solid #CCCCCC;
+    border-color: #CCCCCC;
     box-sizing: border-box;
     border-radius: 5px;
-
 }
 
 .offer-card:last-child {
-
     margin-right: 0px;
-
 }
 
 .offer-card__wrapper {
-
-    padding: 36px 34px 53px 22px;
-    
-
+    padding: 40px 34px 53px 22px;
+    margin: 0;
 }
 
 .offer-card__title {
-
     margin: 0;
     padding-top: 30px;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     color: #000000;
-
 }
 
 .offer-card__amenities {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .offer-card__feature-text {
-
-    
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     color: #666666;
     padding: 17px 81px 0px 0px
-    
 }
 
 .offer-card__feature-text:last-child {
-
     padding-right: 0px;
 }
 
 .offer-card__descr {
-
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     color: #666666;
     padding-top: 25px;
+    padding-bottom: 29px;
+    margin: 0;
 }
 
 .button__offer {
-
-    
-    margin-left: 0px;
+    display: block;
     color: #FF3D00;
     background: #FFFFFF;
     border: 2px solid #FF3D00 ;
+    text-decoration: none;
+    margin: 0;
 }
 
 .button__offer:hover {
-
     background:#FF3D00;
     color: #FFFFFF;
-
 }
-
 .news {
-
-    background: url("../img/bottom-pic.png") center center no-repeat;
-    min-height: 926px;
-    
+    padding-bottom: 150px;
 }
 
 .news__list {
-
-    position: relative;
-    top: -220px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
     padding: 0;
     margin: 0;
-
 }
 
 .news__title {
-    
-    position: relative;
-    top: -240px;
     font-weight: 700;
     font-size: 36px;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 0px 0px 20px 0px;
+    padding-bottom: 51px;
+    margin: 0;
 }
 
+.news__item {
+
+    position: relative;
+}
 
 .news__cover {
-
     position: relative;
     display: block;
     width: 557px;
     height: 394px;
-    margin: 0;
-
 }
 
 .news__text-content {
-
-    position: relative;
+    position: absolute;
+    top: 252px;
+    left: 32px;
     color: #FFFFFF;
-    top: -130px;
-    left: 30px;
-    
 }
 
 .news__date {
-
     font-weight: normal;
     font-size: 14px;
-
 }
 
 .news__subheader {
-
     font-weight: bold;
     font-size: 24px;
     padding-top: 12px;
 }
 
 .news__descr {
-
-    padding-top: 4px;
+    padding-top: 9px;
     font-weight: normal;
     font-size: 16px;
     line-height: 21px;
@@ -340,18 +267,11 @@ main {
 }
 
 .pagination {
-
-    position: relative;
-    top: -310px;
-    left: 0;
-    right: 0px;
     text-align: center;
-    padding-top: 30px;
-   
+    padding-top: 57px;
 }
 
 .pagination__info {
-
     display: inline-block;
     vertical-align: middle;
     margin-right: 26px;
@@ -359,30 +279,22 @@ main {
     font-weight: normal;
     font-size: 16px;
     color: #FFFFFF;
-
 }
 
-
 .pagination__list {
-
     display: inline-block;
     vertical-align: middle;
     list-style-type: none;
     margin: 0;
     padding: 0;
-
 }
 
-
-
 .pagination__item {
-
     display: inline-block;
     vertical-align: middle;
 }
 
 .pagination__link {
-
     display: block;
     width: 32px;
     height: 32px;
@@ -391,112 +303,79 @@ main {
     font-size: 16px;
     color: #FFFFFF;
     line-height: 32px;
-
 }
 
 .pagination__item:hover {
-
     background:#FF5500;
     border-radius: 50%;
     line-height: 32px;
 }
 
 .about {
-
-    position: relative;
-    top: -445px;
-
+    padding-bottom: 53px;
 }
 
 .about__wrapper {
-
     position: relative;
     display: flex;
-    margin: 0;
-    
+    justify-content: flex-end;
+    padding-top: 97px;
 }
 
 .about__img {
-
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
     width: 490px;
     height: 505px;
-
 }
 
 .about__info {
-
-    position: absolute;
-    left: 355px;
-    bottom: -50px;
+    position: relative;
     display: block;
+    right: 0;
+    bottom: 0;
     width: 785px;
-    height: 455px;
+    min-height: 455px;
     background: #FFFFFF;
     border-radius: 5px;
-    padding-left: 81px;
-
-
+    margin: 0;
+    padding: 70px 202px 66px 81px;
 }
 
 .about__title {
-
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     text-transform: uppercase;
     color: #000000;
-    padding-top: 70px;
-    margin: 0;
-
 }
 
 .about__descr {
-
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     color: #060606;
-    padding-top: 37px;
-    padding-right: 202px;
-    margin: 0;
-
 }
-
 .button__about {
-
-  margin: 43px 81px 0px 0px;
+    margin-left: 0;
 }
 
-
-.footer {
-
-
-    position: relative; 
-    top: -250px;
-
-
-}
 .footer__line {
-
     background: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.1;
     margin: 0;
-
 }
 .footer__wrapper {
-
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
-    padding-bottom: 57px;
 }
 
-
 .contacts__info_footer {
-
     color: #9A9A9A;
     font-style: normal;
     font-size: 11px;
