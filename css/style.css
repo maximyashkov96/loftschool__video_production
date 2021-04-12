@@ -408,37 +408,37 @@ body {
 /* социалки отрисовка*/
 
 .social__item--icon--telegram .social__link {
-    background-image: url(/icons/telegram.png);
+    background-image: url("../icons/telegram.png");
 }
 
 .social__item--icon--vk .social__link {
-    background-image: url(/icons/vk.png);
+    background-image: url("../icons/vk.png");
 }
 
 .social__item--icon--fb .social__link {
-    background-image: url(/icons/f.png);
+    background-image: url("../icons/f.png");
 }
 
 .social__item--icon--insta .social__link {
-    background-image: url(/icons/in.png);
+    background-image: url("../icons/in.png");
 }
 
 /* hover социалки */
 
 .social__item--icon--telegram .social__link:hover {
-    background-image: url(/icons/t-hover.png);
+    background-image: url("../icons/t-hover.png");
 }
 
 .social__item--icon--vk .social__link:hover {
-    background-image: url(/icons/vk-hover.png);
+    background-image: url("../icons/vk-hover.png");
 }
 
 .social__item--icon--fb .social__link:hover {
-    background-image: url(/icons/f2-hover.png);
+    background-image: url("../icons/f2-hover.png");
 }
 
 .social__item--icon--insta .social__link:hover {
-    background-image: url(/icons/in-hover.png);
+    background-image: url("../icons/in-hover.png");
 }
 
 .contacts__info_footer {
