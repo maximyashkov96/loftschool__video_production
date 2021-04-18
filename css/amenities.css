@@ -22,7 +22,11 @@ body {
 
 .header {
     background: url(../img/feedback_img/top-line.png) top center no-repeat;
-    
+    background-size: cover;
+}
+
+.header__wrapper {
+    padding-top: 26px;
 }
 
 .menu__link_active {

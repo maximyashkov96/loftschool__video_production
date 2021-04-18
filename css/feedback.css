@@ -20,7 +20,12 @@ body {
 }
 
 .header {
-    background: url(/img/feedback_img/top-line.png) top center no-repeat;
+    background: url(../img/feedback_img/top-line.png) top center no-repeat;
+    background-size: cover;
+}
+
+.header__wrapper {
+    padding-top: 26px;
 }
 
 .menu__link_active {
@@ -172,7 +177,7 @@ body {
 }
 
 .discount__wrapper {
-    background: url("/img/feedback_img/party.png") center right 132px no-repeat;
+    background: url("../img/feedback_img/party.png") center right 132px no-repeat;
     margin-top: 93px;
 }
 
