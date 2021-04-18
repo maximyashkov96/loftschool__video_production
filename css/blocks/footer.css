@@ -3,12 +3,12 @@
     mix-blend-mode: normal;
     opacity: 0.1;
     margin: 0;
+    margin-bottom: 40px;
 }
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 40px;
 }
 
 /* блок с социалками */
@@ -38,7 +38,7 @@
 /* социалки отрисовка*/
 
 .social__item--icon--telegram .social__link {
-    background-image: url("/icons/telegram.png");
+    background-image: url("/../icons/telegram.png");
 }
 
 .social__item--icon--vk .social__link {
@@ -80,8 +80,10 @@
 
 .feedback-footer {
     background: #17191C;
+    padding: 40px 0px 57px;
 }
 
 .amenities-footer {
     background: #17191C;
+    padding: 40px 0px 57px;
 }
