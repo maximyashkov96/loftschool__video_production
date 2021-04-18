@@ -20,7 +20,7 @@ body {
 
 .wrapper  {
     padding: 26px 0px 57px 0px;
-    background: url("/img/hero.png") center top no-repeat, url("/img/bottom-pic.png") bottom 306px center no-repeat;
+    background: url("../img/hero.png") center top no-repeat, url("../img/bottom-pic.png") bottom 306px center no-repeat;
 }
 
 .container {
