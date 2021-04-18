@@ -1,0 +1,49 @@
+@import url("blocks/header.css");
+@import url("blocks/contacts.css");
+@import url("blocks/promo.css");
+@import url("blocks/buttons.css");
+@import url("blocks/offers.css");
+@import url("blocks/news.css");
+@import url("blocks/pagination.css");
+@import url("blocks/about.css");
+@import url("blocks/footer.css");
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    background: #17191C;
+}
+
+.wrapper  {
+    padding: 26px 0px 57px 0px;
+    background: url("/img/hero.png") center top no-repeat, url("/img/bottom-pic.png") bottom 306px center no-repeat;
+}
+
+.container {
+    max-width: 1142px;
+    margin: 0 auto;
+}
+
+.menu__link_active {
+    text-decoration: none;
+    color: #FF3D00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

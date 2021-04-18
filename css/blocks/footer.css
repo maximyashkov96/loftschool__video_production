@@ -1,0 +1,87 @@
+.footer__line {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    margin: 0;
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+/* блок с социалками */
+
+.social {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.social__item {
+    display: flex;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+.social__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+/* социалки отрисовка*/
+
+.social__item--icon--telegram .social__link {
+    background-image: url("/icons/telegram.png");
+}
+
+.social__item--icon--vk .social__link {
+    background-image: url("/icons/vk.png");
+}
+
+.social__item--icon--fb .social__link {
+    background-image: url("/icons/f.png");
+}
+
+.social__item--icon--insta .social__link {
+    background-image: url("/icons/in.png");
+}
+
+/* hover социалки */
+
+.social__item--icon--telegram .social__link:hover {
+    background-image: url("/icons/t-hover.png");
+}
+
+.social__item--icon--vk .social__link:hover {
+    background-image: url("/icons/vk-hover.png");
+}
+
+.social__item--icon--fb .social__link:hover {
+    background-image: url("/icons/f2-hover.png");
+}
+
+.social__item--icon--insta .social__link:hover {
+    background-image: url("/icons/in-hover.png");
+}
+
+.contacts__info_footer {
+    color: #9A9A9A;
+    font-style: normal;
+    font-size: 11px;
+    text-align: right;
+}
+
+.feedback-footer {
+    background: #17191C;
+}
+
+.amenities-footer {
+    background: #17191C;
+}

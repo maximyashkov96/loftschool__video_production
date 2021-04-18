@@ -1,0 +1,263 @@
+@import url("blocks/header.css");
+@import url("blocks/contacts.css");
+@import url("blocks/buttons.css");
+@import url("blocks/pagination.css");
+@import url("blocks/footer.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    background-color: #FFFFFf
+   
+}
+
+.container {
+    max-width: 1142px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(/img/feedback_img/top-line.png) top center no-repeat;
+}
+
+.menu__link_active {
+    text-decoration: none;
+    color: #FF3D00;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    text-transform: uppercase;
+    color: #FFFFFf;
+    margin: 110px 0px 0px 0px;
+}
+
+.breadcrumbs {
+    display: flex;
+    margin: 90px 0px 30px 0px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.breadcrumbs__link {
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__link_active {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__separator {
+    margin: 0px 5px;
+    color: #9A9A9A;
+}
+
+.feedback {
+    margin-top: 94px;
+}
+.feedback__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.feedback-card {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 542px;
+    margin-bottom: 17px;
+}
+
+.feedback-card__wrapper {
+    width: 557px;
+    background: #F4F5F5;
+    border-radius: 5px;
+    margin: 0;
+    padding: 50px 31px 31px 32px ;
+}
+
+.feedback-card__header {
+    display: flex;
+}
+
+.feedback-card__img {
+    margin-right: 20px;
+}
+
+.feedback-card__subheader {
+    margin: 0;
+}
+
+.feedback-card__name {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration-line: underline;
+    color: #2E77A4;
+    margin: 0;
+    padding-top: 32px;
+}
+
+.service {
+    display: inline-block;
+    width: 141px;
+    height: 38px;
+    background: #F2D4C9;
+    border-radius: 35px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 38px;
+    color: #303030;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.service-feed {
+    margin-right: 18px;
+}
+
+.service-feed:nth-child(5) {
+    margin-right: 0px;
+}
+
+.service-feed:last-child {
+    margin-right: 0px;
+}
+
+.feedback-card__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #202020;
+    margin: 27px 0px 0px 0px;
+}
+
+.feedback-card__descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.68;
+    color: #818181;
+    margin: 15px 0px 50px 0px;
+}
+
+.feedback-card__date {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1A1B1E;
+}
+
+.discount {
+    background-color: #373737;
+    min-height: 346px;
+}
+
+.discount__wrapper {
+    background: url("/img/feedback_img/party.png") center right 132px no-repeat;
+    margin-top: 93px;
+}
+
+.discount__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #FFFFFF;
+    padding: 117px 0px 116px 0px;
+    margin: 0;
+}
+
+.discount__value {
+    color: #FF3D00;
+}
+
+.feed {
+    background: #F4F5F5;
+}
+
+.feed__wrapper {
+    padding: 56px 0px 96px 0px;
+}
+
+.feed__title {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #202020;
+}
+
+.form__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 56px 0px 26px;
+}
+
+.feed-form__name {
+    width: 557px;
+    height: 65px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: transparent;
+    padding-left: 30px;
+}
+
+.feed-form__vk-link {
+    width: 557px;
+    height: 65px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: transparent;
+    padding-left: 20px;
+}
+
+.feed-form__text-area {
+    width: 1142px;
+    height: 235px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: transparent;
+    padding: 29px 0px 0px 30px;
+}
+
+.feed__service-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feed__descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #1A1B1E;
+    padding-right: 71px;
+}
+
+.feed__service {
+    display: flex;
+    align-items: baseline;
+}
+
+.feed__btn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}

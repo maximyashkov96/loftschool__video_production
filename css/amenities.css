@@ -1,0 +1,147 @@
+@import url("blocks/header.css");
+@import url("blocks/contacts.css");
+@import url("blocks/buttons.css");
+@import url("blocks/pagination.css");
+@import url("blocks/footer.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    background-color:#FFFFFf
+   
+}
+
+.container {
+    max-width: 1142px;
+    margin: 0 auto;
+}
+
+
+.header {
+    background: url(../img/feedback_img/top-line.png) top center no-repeat;
+    
+}
+
+.menu__link_active {
+    text-decoration: none;
+    color: #FF3D00;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    text-transform: uppercase;
+    color: #FFFFFf;
+    margin: 110px 0px 0px 0px;
+}
+
+.breadcrumbs {
+    display: flex;
+    margin: 90px 0px 30px 0px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.breadcrumbs__link {
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__link_active {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__separator {
+    margin: 0px 5px;
+    color: #9A9A9A;
+}
+
+.proposal {
+    margin: 94px 0px 90px;
+}
+
+.proposal__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.proposal__item {
+    display: flex;
+    margin-bottom: 49px;
+}
+
+.proposal__img {
+    margin-right: 56px;
+    width: 460px;
+    height: 333px;
+}
+
+.proposal__title {
+    margin: 13px 0px 0px 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+}
+
+.proposal__desc {
+    margin: 25px 0px 0px;
+    line-height: 1.67;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #303030;
+}
+
+.proposal-btn {
+    margin: 34px 0px;
+    display: block;
+    color: #FF3D00;
+    background: #FFFFFF;
+    border: 2px solid #FF3D00 ;
+    text-decoration: none;
+}
+
+.proposal-btn:hover {
+    background:#FF3D00;
+    color: #FFFFFF;
+}
+
+.partners {
+    background: #F4F5F5;
+    padding: 88px 0px 110px;
+}
+.partners__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #1A1B1E;
+    margin: 0;
+}
+
+.partners__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 82px 0px 0px 0px;
+    margin: 0;
+}
+
+.partners__list:nth-child(1) {
+    margin: 0;
+    padding: 73px 0px 0px 0px;
+}

@@ -1,0 +1,25 @@
+
+.promo {
+    padding: 162px 0px 233px 0px;
+    text-align: center;
+}
+
+.promo__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+.promo__subtitle {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 17px;
+}

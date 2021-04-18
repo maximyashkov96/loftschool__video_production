@@ -1,0 +1,62 @@
+
+.button {
+    display: block;
+    width: 195px;
+    height: 55px;
+    background: #FF3D00;
+    border-radius: 35px;
+    line-height: 55px;
+    margin: 0 auto;
+    margin-top: 43px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.feed-submit-btn {
+    margin: 33px 0px 0px 0px;
+    display: block;
+    color: #FFFFFF;
+    background:  #FF5500;
+    text-decoration: none;
+}
+
+.feed-submit-btn:hover {
+    background: #FF3D00;
+}
+
+.feed-clear-btn {
+    margin: 33px 13px 0px 0px;
+    display: block;
+    color: #FFFFFF;
+    background: #8E8E8E;
+    text-decoration: none;
+}
+
+.feed-clear-btn:hover {
+    background: #2B2B2B;
+}
+
+.button__offer {
+    display: block;
+    color: #FF3D00;
+    background: #FFFFFF;
+    border: 2px solid #FF3D00 ;
+    text-decoration: none;
+    margin: 0;
+}
+
+.button__offer:hover {
+    background:#FF3D00;
+    color: #FFFFFF;
+}
+
+
+.button__about {
+    margin-left: 0;
+    text-decoration: none;
+}

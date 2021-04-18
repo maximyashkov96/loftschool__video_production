@@ -1,0 +1,42 @@
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.logo {
+    display: inline-block;
+    width: 198px;
+    height: 46px;
+}
+
+.menu__list {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu__item {
+    display: inline-block;
+    margin-right: 54px;
+}
+
+.menu__item:last-child {
+    margin-right: 0px;
+}
+
+.menu__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+
+    color: #FF3D00;
+}
+
+
+
